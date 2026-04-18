@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, Poppins, Arial, sans-serif;
+  color: #111111;
+  background: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #ffffff;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button,
+a {
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    opacity 0.2s ease;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.88;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
